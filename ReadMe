@@ -1,12 +1,31 @@
-This folder contains tests of different punctuators
+Setup:
+Activate virtual environment
+	virtualenv -p python3.7 .env
+	. .env/bin/activate
 
-The three different models are as follows:
+Install punctuator
+	pip install punctuator
+
+Download punctuator models:
+	gdown https://drive.google.com/uc?id=0B7BsN5f2F1fZd1Q0aXlrUDhDbnM
+
+	gdown https://drive.google.com/file/d/0B7BsN5f2F1fZZ2ZXd3R0dEh6NDA/view?usp=sharing
+
+If links dont work above, go to: 
+https://drive.google.com/drive/folders/0B7BsN5f2F1fZQnFsbzJ3TWxxMms
+
+
+
+Using punctuator2.py:
+	python punctuator2.py [textfile]
+
+The two different models are as follows:
 1. Demo-Europarl-En.pcl
 2. INTERSPEECH-T-BRNN.pcl
 
-Each model can be tested by entering either argument.
+Select the model after running python script
 
-The models all work best when the entire document is lowercased. 
-
-Removes all filler words (uh)
+Notes:
+	Works best when the entire document is lowercased
+	Removes all filler words (uh)
 
