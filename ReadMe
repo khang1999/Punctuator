@@ -1,0 +1,12 @@
+This folder contains tests of different punctuators
+
+The three different models are as follows:
+1. Demo-Europarl-En.pcl
+2. INTERSPEECH-T-BRNN.pcl
+
+Each model can be tested by entering either argument.
+
+The models all work best when the entire document is lowercased. 
+
+Removes all filler words (uh)
+
